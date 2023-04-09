@@ -23,6 +23,8 @@
                     <a href="show_students.php" style="margin-left: 20px;"> Students </a> 
                     <a href="show_studymaterials.php" style="margin-left: 20px;"> Study Materials </a> 
                     <a href="show_furnitures.php" style="margin-left: 20px;"> Furnitures  </a> 
+                    <a href="show_furnitures.php" style="margin-left: 20px;"> others  </a> 
+
                     
                 </div>
             
