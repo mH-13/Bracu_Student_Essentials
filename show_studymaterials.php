@@ -28,7 +28,7 @@
         </section>
         
         <section id = "section1">
-            <div class="title"> Furniture List </div>
+            <div class="title"> Study Materials </div>
             <div style="margin-left:10%; margin-right:10%; margin-top:50px; margin-bottom:50px;text-align:left; background:#ADA9BA;">
                 <div class="row" style="padding:10px;"> 
                     <div class="col-md-2">  Uploaded By </div>
