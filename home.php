@@ -19,10 +19,7 @@
             <div class="row">  
                 <div class="col-md-4" style="font-size: 30px;color:#716da6;"> BRACU Student Essentials </div>
                 <div class="col-md-10" style="text-align: right; margin-left: 250px;"> 
-                    <a href="home.php" style="margin-left: 20px;"> Home </a> 
-                    <a href="show_students.php" style="margin-left: 20px;"> Students </a> 
-                    <a href="show_studymaterials.php" style="margin-left: 20px;"> Study Materials </a> 
-                    <a href="show_furnitures.php" style="margin-left: 20px;"> Furnitures  </a> 
+                    <a href="index.php" style="margin-left: 20px;"> Login </a> 
                 </div>
             
             </div>

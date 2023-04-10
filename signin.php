@@ -9,8 +9,6 @@ if(isset($_POST['fname']) && isset($_POST['pass'])){
     // write the query to check if this username and password exists in our database
 	$u = $_POST['fname'];
 	$p = $_POST['pass'];
-    // echo "$u";
-    // echo "$p";
 	$sql = "SELECT * FROM users WHERE userid = '$u' AND password = '$p'";
 	
 	//Execute the query 
@@ -18,7 +16,8 @@ if(isset($_POST['fname']) && isset($_POST['pass'])){
 	
 	//check if it returns an empty set
 	if(mysqli_num_rows($result) > 0 ){
-		header("Location: home.php");
+        header("Location: profile.php?userid=".urlencode($u));
+		//header("Location: profile.php");
 	}
 	else{
         header("Location: index.php");

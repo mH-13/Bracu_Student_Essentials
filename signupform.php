@@ -17,11 +17,7 @@
         <!-- following section is used for creating the menubar in the webpage -->
         <section id="header">
             <div class="row">  
-                <div class="col-md-4" style="font-size: 30px;color:#716da6;"> BRACU Studen Essentials </div>
-                <div class="col-md-10" style="text-align: right"> 
-                    <a href="index.php"> Sign In </a> 
-                    
-                </div>
+                <div class="col-md-4" style="font-size: 30px;color:#716da6;"> <a href="home.php"> BRACU Studen Essentials</a> </div>
             </div>
         </section>
         
@@ -38,6 +34,10 @@
                 <br/>
                 <input type="submit" value="Submit">
             </form>
+            <div class="col-md-12" style="text-align: right"> 
+            <p style="display: inline-block; text-align: left"> 
+            Already have an account? </p> <a href="index.php" style="color: #022E66"> Login </a> 
+            </div>
         </section>
 
         
