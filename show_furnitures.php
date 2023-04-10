@@ -26,10 +26,14 @@
                 </div>
             </div>
         </section>
-        
         <section id = "section1">
+            <form method="post" action="search2.php" style="margin-bottom:10px">
+            <input type="text" name="furniture" placeholder="furniture_type">
+            <button type="submit" name="submit">Search</button>
+            </form>
+
             <div class="title"> Furniture List </div>
-            <div style="margin-left:10%; margin-right:10%; margin-top:50px; margin-bottom:50px;text-align:left; background:#ADA9BA;">
+            <div style="margin-left:10%; margin-right:10%; margin-top:10px; margin-bottom:10px;text-align:left; background:#ADA9BA;">
                 <div class="row" style="padding:10px;"> 
                     <div class="col-md-2">  Advertised By </div>
                     <div class="col-md-4">  Discription </div>

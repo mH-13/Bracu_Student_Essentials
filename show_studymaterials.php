@@ -27,9 +27,15 @@
             </div>
         </section>
         
+
         <section id = "section1">
+            <form method="post" action="search.php">
+            <input type="text" name="c_code" placeholder="course_code">
+            <button type="submit" name="submit">Search</button>
+            </form>
+            
             <div class="title"> Study Materials </div>
-            <div style="margin-left:10%; margin-right:10%; margin-top:50px; margin-bottom:50px;text-align:left; background:#ADA9BA;">
+            <div style="margin-left:10%; margin-right:10%; margin-top:10px; margin-bottom:10px;text-align:left; background:#ADA9BA;">
                 <div class="row" style="padding:10px;"> 
                     <div class="col-md-2">  Uploaded By </div>
                     <div class="col-md-4">  Course Code </div>
