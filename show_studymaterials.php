@@ -46,7 +46,15 @@
                 </div>
                 
                 <!-- here we will write php codes to fetch data from database and will show in the rows of this table -->
+                <?php
+                // Get the username from the URL query string parameter
                 
+                $user_id = $_GET["user_id"];
+                //echo " $user_id";
+                ?>
+
+                <!-- Display the username on the Homepage -->
+                <!-- <p>Welcome, <?php echo $user_id; ?>!</p> -->
                 <?php 
                 require_once("DBconnect.php");
                 $sql = "SELECT * FROM Study_material";

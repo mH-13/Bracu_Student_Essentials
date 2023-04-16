@@ -44,6 +44,12 @@
                 require_once("DBconnect.php");
                 $sql = "SELECT * FROM student";
                 $result = mysqli_query($conn, $sql);
+                
+                //new code.......................
+                $id = 20301196;
+                $url = "upload_study_materials_form.php?id=$id";
+                header("Location: $url");
+
                 if(mysqli_num_rows($result) > 0){
                     //here we will print every row that is returned by our query $sql
                     while($row = mysqli_fetch_array($result)){
